@@ -89,9 +89,9 @@
 		3E556C56298F18A6001DC27D = {
 			isa = PBXGroup;
 			children = (
-				3E556C61298F18A6001DC27D /* khal3470_a3 */,
 				3E556C78298F18A7001DC27D /* khal3470_a3Tests */,
 				3E556C82298F18A7001DC27D /* khal3470_a3UITests */,
+				3E556C61298F18A6001DC27D /* khal3470_a3 */,
 				3E556C60298F18A6001DC27D /* Products */,
 			);
 			sourceTree = "<group>";
