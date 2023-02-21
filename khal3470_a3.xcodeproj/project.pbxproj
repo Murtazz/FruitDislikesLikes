@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3CA174299895E200802D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3CA173299895E200802D37 /* Assets.xcassets */; };
 		3E556C63298F18A6001DC27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C62298F18A6001DC27D /* AppDelegate.swift */; };
 		3E556C65298F18A6001DC27D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C64298F18A6001DC27D /* SceneDelegate.swift */; };
 		3E556C67298F18A6001DC27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C66298F18A6001DC27D /* ViewController.swift */; };
 		3E556C6A298F18A6001DC27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E556C68298F18A6001DC27D /* Main.storyboard */; };
-		3E556C6C298F18A7001DC27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E556C6B298F18A7001DC27D /* Assets.xcassets */; };
 		3E556C6F298F18A7001DC27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E556C6D298F18A7001DC27D /* LaunchScreen.storyboard */; };
-		3E556C7A298F18A7001DC27D /* khal3470_a2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C79298F18A7001DC27D /* khal3470_a2Tests.swift */; };
-		3E556C84298F18A7001DC27D /* khal3470_a2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C83298F18A7001DC27D /* khal3470_a2UITests.swift */; };
-		3E556C86298F18A7001DC27D /* khal3470_a2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C85298F18A7001DC27D /* khal3470_a2UITestsLaunchTests.swift */; };
+		3E556C7A298F18A7001DC27D /* khal3470_a3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C79298F18A7001DC27D /* khal3470_a3Tests.swift */; };
+		3E556C84298F18A7001DC27D /* khal3470_a3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C83298F18A7001DC27D /* khal3470_a3UITests.swift */; };
+		3E556C86298F18A7001DC27D /* khal3470_a3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E556C85298F18A7001DC27D /* khal3470_a3UITestsLaunchTests.swift */; };
+		3E8825762998ED24005ED59B /* SharingFruitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8825752998ED24005ED59B /* SharingFruitCollection.swift */; };
+		3E8825782999C840005ED59B /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8825772999C840005ED59B /* DeleteViewController.swift */; };
+		3EFD1E772990580500BC58E3 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD1E762990580500BC58E3 /* Fruit.swift */; };
+		3EFD1E792990589300BC58E3 /* FruitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD1E782990589300BC58E3 /* FruitCollection.swift */; };
+		3EFD1E7B2998752300BC58E3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD1E7A2998752300BC58E3 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E556C5F298F18A6001DC27D /* khal3470_a2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = khal3470_a2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3CA173299895E200802D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E556C5F298F18A6001DC27D /* khal3470_a3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = khal3470_a3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E556C62298F18A6001DC27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E556C64298F18A6001DC27D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E556C66298F18A6001DC27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E556C69298F18A6001DC27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E556C6B298F18A7001DC27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E556C6E298F18A7001DC27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E556C70298F18A7001DC27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E556C75298F18A7001DC27D /* khal3470_a2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khal3470_a2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E556C79298F18A7001DC27D /* khal3470_a2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a2Tests.swift; sourceTree = "<group>"; };
-		3E556C7F298F18A7001DC27D /* khal3470_a2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khal3470_a2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E556C83298F18A7001DC27D /* khal3470_a2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a2UITests.swift; sourceTree = "<group>"; };
-		3E556C85298F18A7001DC27D /* khal3470_a2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E556C75298F18A7001DC27D /* khal3470_a3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khal3470_a3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E556C79298F18A7001DC27D /* khal3470_a3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a3Tests.swift; sourceTree = "<group>"; };
+		3E556C7F298F18A7001DC27D /* khal3470_a3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khal3470_a3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E556C83298F18A7001DC27D /* khal3470_a3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a3UITests.swift; sourceTree = "<group>"; };
+		3E556C85298F18A7001DC27D /* khal3470_a3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khal3470_a3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E8825752998ED24005ED59B /* SharingFruitCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingFruitCollection.swift; sourceTree = "<group>"; };
+		3E8825772999C840005ED59B /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		3EFD1E762990580500BC58E3 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		3EFD1E782990589300BC58E3 /* FruitCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCollection.swift; sourceTree = "<group>"; };
+		3EFD1E7A2998752300BC58E3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +89,9 @@
 		3E556C56298F18A6001DC27D = {
 			isa = PBXGroup;
 			children = (
-				3E556C61298F18A6001DC27D /* khal3470_a2 */,
-				3E556C78298F18A7001DC27D /* khal3470_a2Tests */,
-				3E556C82298F18A7001DC27D /* khal3470_a2UITests */,
+				3E556C61298F18A6001DC27D /* khal3470_a3 */,
+				3E556C78298F18A7001DC27D /* khal3470_a3Tests */,
+				3E556C82298F18A7001DC27D /* khal3470_a3UITests */,
 				3E556C60298F18A6001DC27D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,50 +99,55 @@
 		3E556C60298F18A6001DC27D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E556C5F298F18A6001DC27D /* khal3470_a2.app */,
-				3E556C75298F18A7001DC27D /* khal3470_a2Tests.xctest */,
-				3E556C7F298F18A7001DC27D /* khal3470_a2UITests.xctest */,
+				3E556C5F298F18A6001DC27D /* khal3470_a3.app */,
+				3E556C75298F18A7001DC27D /* khal3470_a3Tests.xctest */,
+				3E556C7F298F18A7001DC27D /* khal3470_a3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E556C61298F18A6001DC27D /* khal3470_a2 */ = {
+		3E556C61298F18A6001DC27D /* khal3470_a3 */ = {
 			isa = PBXGroup;
 			children = (
 				3E556C62298F18A6001DC27D /* AppDelegate.swift */,
 				3E556C64298F18A6001DC27D /* SceneDelegate.swift */,
 				3E556C66298F18A6001DC27D /* ViewController.swift */,
 				3E556C68298F18A6001DC27D /* Main.storyboard */,
-				3E556C6B298F18A7001DC27D /* Assets.xcassets */,
 				3E556C6D298F18A7001DC27D /* LaunchScreen.storyboard */,
 				3E556C70298F18A7001DC27D /* Info.plist */,
+				3EFD1E762990580500BC58E3 /* Fruit.swift */,
+				3EFD1E782990589300BC58E3 /* FruitCollection.swift */,
+				3EFD1E7A2998752300BC58E3 /* AddViewController.swift */,
+				3E3CA173299895E200802D37 /* Assets.xcassets */,
+				3E8825752998ED24005ED59B /* SharingFruitCollection.swift */,
+				3E8825772999C840005ED59B /* DeleteViewController.swift */,
 			);
-			path = khal3470_a2;
+			path = khal3470_a3;
 			sourceTree = "<group>";
 		};
-		3E556C78298F18A7001DC27D /* khal3470_a2Tests */ = {
+		3E556C78298F18A7001DC27D /* khal3470_a3Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3E556C79298F18A7001DC27D /* khal3470_a2Tests.swift */,
+				3E556C79298F18A7001DC27D /* khal3470_a3Tests.swift */,
 			);
-			path = khal3470_a2Tests;
+			path = khal3470_a3Tests;
 			sourceTree = "<group>";
 		};
-		3E556C82298F18A7001DC27D /* khal3470_a2UITests */ = {
+		3E556C82298F18A7001DC27D /* khal3470_a3UITests */ = {
 			isa = PBXGroup;
 			children = (
-				3E556C83298F18A7001DC27D /* khal3470_a2UITests.swift */,
-				3E556C85298F18A7001DC27D /* khal3470_a2UITestsLaunchTests.swift */,
+				3E556C83298F18A7001DC27D /* khal3470_a3UITests.swift */,
+				3E556C85298F18A7001DC27D /* khal3470_a3UITestsLaunchTests.swift */,
 			);
-			path = khal3470_a2UITests;
+			path = khal3470_a3UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E556C5E298F18A6001DC27D /* khal3470_a2 */ = {
+		3E556C5E298F18A6001DC27D /* khal3470_a3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E556C89298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2" */;
+			buildConfigurationList = 3E556C89298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3" */;
 			buildPhases = (
 				3E556C5B298F18A6001DC27D /* Sources */,
 				3E556C5C298F18A6001DC27D /* Frameworks */,
@@ -142,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = khal3470_a2;
+			name = khal3470_a3;
 			productName = khal3470_a2;
-			productReference = 3E556C5F298F18A6001DC27D /* khal3470_a2.app */;
+			productReference = 3E556C5F298F18A6001DC27D /* khal3470_a3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3E556C74298F18A7001DC27D /* khal3470_a2Tests */ = {
+		3E556C74298F18A7001DC27D /* khal3470_a3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E556C8C298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2Tests" */;
+			buildConfigurationList = 3E556C8C298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3Tests" */;
 			buildPhases = (
 				3E556C71298F18A7001DC27D /* Sources */,
 				3E556C72298F18A7001DC27D /* Frameworks */,
@@ -160,14 +175,14 @@
 			dependencies = (
 				3E556C77298F18A7001DC27D /* PBXTargetDependency */,
 			);
-			name = khal3470_a2Tests;
+			name = khal3470_a3Tests;
 			productName = khal3470_a2Tests;
-			productReference = 3E556C75298F18A7001DC27D /* khal3470_a2Tests.xctest */;
+			productReference = 3E556C75298F18A7001DC27D /* khal3470_a3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3E556C7E298F18A7001DC27D /* khal3470_a2UITests */ = {
+		3E556C7E298F18A7001DC27D /* khal3470_a3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E556C8F298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2UITests" */;
+			buildConfigurationList = 3E556C8F298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3UITests" */;
 			buildPhases = (
 				3E556C7B298F18A7001DC27D /* Sources */,
 				3E556C7C298F18A7001DC27D /* Frameworks */,
@@ -178,9 +193,9 @@
 			dependencies = (
 				3E556C81298F18A7001DC27D /* PBXTargetDependency */,
 			);
-			name = khal3470_a2UITests;
+			name = khal3470_a3UITests;
 			productName = khal3470_a2UITests;
-			productReference = 3E556C7F298F18A7001DC27D /* khal3470_a2UITests.xctest */;
+			productReference = 3E556C7F298F18A7001DC27D /* khal3470_a3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E556C5A298F18A6001DC27D /* Build configuration list for PBXProject "khal3470_a2" */;
+			buildConfigurationList = 3E556C5A298F18A6001DC27D /* Build configuration list for PBXProject "khal3470_a3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E556C5E298F18A6001DC27D /* khal3470_a2 */,
-				3E556C74298F18A7001DC27D /* khal3470_a2Tests */,
-				3E556C7E298F18A7001DC27D /* khal3470_a2UITests */,
+				3E556C5E298F18A6001DC27D /* khal3470_a3 */,
+				3E556C74298F18A7001DC27D /* khal3470_a3Tests */,
+				3E556C7E298F18A7001DC27D /* khal3470_a3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E556C6F298F18A7001DC27D /* LaunchScreen.storyboard in Resources */,
-				3E556C6C298F18A7001DC27D /* Assets.xcassets in Resources */,
+				3E3CA174299895E200802D37 /* Assets.xcassets in Resources */,
 				3E556C6A298F18A6001DC27D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFD1E7B2998752300BC58E3 /* AddViewController.swift in Sources */,
+				3EFD1E792990589300BC58E3 /* FruitCollection.swift in Sources */,
+				3EFD1E772990580500BC58E3 /* Fruit.swift in Sources */,
 				3E556C67298F18A6001DC27D /* ViewController.swift in Sources */,
+				3E8825762998ED24005ED59B /* SharingFruitCollection.swift in Sources */,
 				3E556C63298F18A6001DC27D /* AppDelegate.swift in Sources */,
+				3E8825782999C840005ED59B /* DeleteViewController.swift in Sources */,
 				3E556C65298F18A6001DC27D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E556C7A298F18A7001DC27D /* khal3470_a2Tests.swift in Sources */,
+				3E556C7A298F18A7001DC27D /* khal3470_a3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E556C84298F18A7001DC27D /* khal3470_a2UITests.swift in Sources */,
-				3E556C86298F18A7001DC27D /* khal3470_a2UITestsLaunchTests.swift in Sources */,
+				3E556C84298F18A7001DC27D /* khal3470_a3UITests.swift in Sources */,
+				3E556C86298F18A7001DC27D /* khal3470_a3UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		3E556C77298F18A7001DC27D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E556C5E298F18A6001DC27D /* khal3470_a2 */;
+			target = 3E556C5E298F18A6001DC27D /* khal3470_a3 */;
 			targetProxy = 3E556C76298F18A7001DC27D /* PBXContainerItemProxy */;
 		};
 		3E556C81298F18A7001DC27D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3E556C5E298F18A6001DC27D /* khal3470_a2 */;
+			target = 3E556C5E298F18A6001DC27D /* khal3470_a3 */;
 			targetProxy = 3E556C80298F18A7001DC27D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,12 +454,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2SX5842NZG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = khal3470_a2/Info.plist;
+				INFOPLIST_FILE = khal3470_a3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -450,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "wlu.khal3470-a2";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.khal3470-a3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,12 +481,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2SX5842NZG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = khal3470_a2/Info.plist;
+				INFOPLIST_FILE = khal3470_a3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "wlu.khal3470-a2";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.khal3470-a3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -502,7 +520,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/khal3470_a2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/khal3470_a2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/khal3470_a3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/khal3470_a3";
 			};
 			name = Debug;
 		};
@@ -522,7 +540,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/khal3470_a2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/khal3470_a2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/khal3470_a3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/khal3470_a3";
 			};
 			name = Release;
 		};
@@ -565,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E556C5A298F18A6001DC27D /* Build configuration list for PBXProject "khal3470_a2" */ = {
+		3E556C5A298F18A6001DC27D /* Build configuration list for PBXProject "khal3470_a3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E556C87298F18A7001DC27D /* Debug */,
@@ -574,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E556C89298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2" */ = {
+		3E556C89298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E556C8A298F18A7001DC27D /* Debug */,
@@ -583,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E556C8C298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2Tests" */ = {
+		3E556C8C298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E556C8D298F18A7001DC27D /* Debug */,
@@ -592,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E556C8F298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a2UITests" */ = {
+		3E556C8F298F18A7001DC27D /* Build configuration list for PBXNativeTarget "khal3470_a3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E556C90298F18A7001DC27D /* Debug */,
